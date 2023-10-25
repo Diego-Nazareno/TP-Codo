@@ -1,0 +1,136 @@
+/* Estilos para página  de Habitaciones */
+.habitaciones {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 2.5vw;
+  margin-bottom: 5vh;
+  z-index: -10;
+   
+ 
+}
+#titulohabitaciones{
+  background-color: rgb(222, 219, 219);
+  font-family:"bradley";
+  border:none;
+  margin-top: 5vh;
+  color:rgb(178, 101, 101);
+  text-shadow:  0vw -0.2vw white
+  
+   
+}
+.itemhabitaciones1{
+ height: 50vh;
+ width: 50vw;
+ border-style: double;
+ border-color: #66445A;
+ background-image: url(/img/pexels-pixabay-164595.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ 
+ 
+ 
+  
+}
+.itemhabitaciones2 {
+  height: 50vh;
+  width: 50vw;
+  border-style: double;
+  border-color: #66445A;
+  background-image: url(/img/pexels-pixabay-279746.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  }
+.formularioreserva {
+  border: none;
+
+}
+#reserva {
+  padding: 5vw;
+  padding-left: 10vw;
+  text-align: justify;
+  color: #66445A;;
+  font-size: medium;
+  border-color: rgb(178, 101, 101);
+  border-style: solid;
+  margin-right: -1vw;
+  
+}
+
+#reserva1 {
+  padding: 5vw;
+  padding-left: 10vw;
+  text-align: justify;
+  color: #66445A;;
+  font-size: medium;
+  border-color: rgb(178, 101, 101);
+  border-style: solid;
+  margin-right: -1vw;
+  
+}
+#boton {
+  display: flex;
+  justify-content: center;
+}
+#boton_reservar{
+  font-size: large;
+  background-color: rgb(178, 101, 101);
+  color: white;
+  border: none;
+  padding: 0.5vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin: 2vh;
+  
+}
+#boton_reservar1{
+  font-size: large;
+  background-color: rgb(178, 101, 101);
+  color: white;
+  border: none;
+  padding: 0.5vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin: 2vh;
+  
+}
+
+.botonenviar { 
+
+    font-size: medium;
+    background-color:rgb(178, 101, 101);
+    color: white;
+    border-color: white;
+    padding: 2vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+ 
+}
+
+@media screen and (max-width: 900px){
+  .habitaciones {
+    display: grid;
+    grid-template-columns: 100%;
+    
+  }
+
+  .itemhabitaciones1{
+    width: 100%;
+    background-image: url(/img/pexels-pixabay-164595.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+      
+         
+   }
+   .itemhabitaciones2 {
+     
+    width: 100%;
+     background-image: url(/img/pexels-pixabay-279746.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+#boton_reservar1{
+  display: none;
+}
+
+}

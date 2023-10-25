@@ -1,0 +1,280 @@
+@font-face {
+  font-family:"beba" ;
+  src: url(/font/BebasNeue-Regular.ttf)
+}
+@font-face {
+  font-family:"caveat" ;
+  src: url(/font/Caveat-VariableFont_wght.ttf)
+}
+
+@font-face {
+  font-family:"anton" ;
+  src: url(/font/Anton-Regular.ttf)  
+}
+@font-face {
+  font-family:"bradley" ;
+  src: url(/font/bradley-hand-itc.ttf)}
+
+*{margin:0%;
+  padding:0%;
+  font-family: "anton", 'Times New Roman', Times, serif;
+
+ }
+
+  
+h1 {font-size: 4vw;
+    color: #66445A;
+    font-family:"bradley";
+    padding-top:  30vh;
+    
+  }
+
+h2 {
+  font-size: 5vh;
+  color:rgba(46, 22, 35, 0.65);
+  text-align: center;
+  border-style: double;
+  border-width: 0.5vW;} 
+
+img {max-width: 100%;}
+
+ 
+
+header{
+  background-image: url(/img/pexels-szabó-viktor-3227984.jpg);
+  background-position: right;
+  height: 15vh;
+  position: fixed;
+  right: 0vw;
+  left: 0vw;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10vh;
+  align-items: center;
+     
+}
+a:link{ color:white; }
+a:visited {color: #66445A;}
+a:hover{ color:  rgb(178, 101, 101);}
+
+
+nav {
+  padding-top: 7vh;
+  padding-right: 20vw;;
+}
+#icononav {
+  display: none;
+}
+.menu {  
+  text-decoration: none;
+  color:white;
+  padding-right: 7vh;
+  font-size:2vw ;
+  
+    
+}
+
+.logo{  
+    width: 17vw ;
+    height:auto;  
+        
+}
+.tituloimagen{
+  text-align: center;
+  padding-top: 0vh;
+  margin-top: 0vh;
+ 
+  padding-bottom: 2vh;
+  margin-top: 0vh;
+}
+
+
+.imagentransicion {  
+  background-image: url(/img/pexels-pixabay-261102.jpg);  
+  background-repeat: no-repeat;
+  height:100vh;  
+  position: relative;
+  margin-top: 5vh; 
+  margin-bottom: 0vh; 
+  padding: 4%;
+  background-size: cover;
+  animation-name: cambiar;
+  animation-duration: 10s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  z-index: -10;
+
+}
+
+@keyframes cambiar {
+    25%{background-image: url('/img/pexels-pixabay-164595.jpg'); left: 0vw;top: 0vh;}
+    50%{background-image: url("/img/pexels-karl-solano-2883047.jpg");left: 0vw;top: 0vh;}
+    75%{background-image: url("/img/pexels-pixabay-261102.jpg");left: 0vw;top: 0vh;}
+   
+}
+body {
+  position: relative;
+  padding-bottom: 0vh;
+  min-height: 100vh;
+  margin-bottom: 0vh;
+}
+
+.contenedor {
+  margin-top: 1vh;
+  background-color: rgba(248, 187, 149, 0.8);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 1vh;
+  
+}
+.item {
+  padding: 10vh;
+  
+}
+#itemteximagen{
+  font-size: larger;
+  color:  rgb(178, 101, 101);
+  text-align: justify;
+}
+
+#titulo-grid-item {
+  border-style: none;
+  padding-top: 10vh;
+}
+.iconosindex {
+  font-size: 5vw;
+  padding-left: 17.5vw;
+} 
+
+h5 {text-align: center;
+  color: white;
+  font-size: larger;
+  padding-bottom: 2vh;
+  font-family: "caveat";
+
+}
+#datos1{
+  font-size: medium;
+  text-align: center;
+  color: white;
+font-family: "caveat";}
+
+ #datos {color: white;
+font-size: medium;
+text-align: justify;
+padding-bottom: 2vh;
+font-family: "caveat";} 
+
+
+.piedepaginas {
+background-color: rgba(46, 22, 35, 0.65);
+margin-bottom: 0vh;
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+}
+.itemfooter { 
+  padding: 2vh;
+  padding-top: 4vh;
+
+}
+
+
+iframe {
+  
+  width: auto;
+  height: auto;
+ padding-right: 5;}
+
+  .iconosfooter {
+    width: 15vh;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-column-gap: 2vw;
+    padding-top: 10vh;
+    padding-left: 10vw;
+  }
+
+
+ 
+  @media screen and (max-width: 900px) {
+  header{
+      background-image: url(/img/pexels-szabó-viktor-3227984.jpg);
+      background-position: right;
+      height: 15vh;
+      position: fixed;
+      right: 0vw;
+      left: 0vw;
+      display: flex;  
+        
+         
+    }
+
+  nav {
+    display: none;
+    
+  }
+  #icononav {
+   display: inline;
+  }
+  
+  
+  .imagentransicion{
+   width:100vw; 
+   height: 40vh;  
+   background-size: cover;
+   background-position: center;
+   margin-bottom: 0vh;
+   padding-bottom: 0vh;
+  
+   
+
+  }
+  .item {
+    padding-top:1vh ;
+    padding-left:  2.5vw;
+    padding-right: 2.5vw;
+  }
+
+  .contenedor{
+    display: grid;
+    grid-template-columns: 100vw;
+    padding-top: 0vh;
+   
+    
+  }
+  .logof {
+  width: auto;
+  height: auto;
+  }
+  h5 {
+    display: none;
+  }
+  .itemfooter {
+    padding: 2.5vh;
+    
+  }
+  #datos1{
+    font-size: x-large;
+    text-align: center;
+    color: white;
+  }
+  .piedepaginas{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  iframe {
+    margin-left: 25vw;
+    width: auto;
+    height: auto;
+    
+  }
+  .iconosfooter {
+    width: 15vh;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-column-gap: 2vw;
+    padding-left: 35vw;
+    
+  }
+
+}

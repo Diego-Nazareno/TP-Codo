@@ -1,0 +1,82 @@
+/* Estilos para página  de contacto */
+
+
+#seccioncontacto {background-image:linear-gradient(rgba(138, 128, 122, 0.8),rgba(0,0,0,0.8)),url(/img/pexels-karl-solano-2883047.jpg);
+    padding-bottom: 10vh;
+    background-position: center;
+    margin-top: 0vh;
+    }
+    
+    
+    .iframecontacto {
+      display: inline-block;
+      color: white;  
+      padding-left: 10vw;
+      
+      
+     }
+    
+     #titulocontacto {
+      text-align: justify;
+     
+      
+      padding: 3vw;
+      margin-left: 12vw;
+      border-color: white;
+      border-width: 0.5vw;
+      border-style: solid
+     }
+    
+     #parrafocontacto { padding: bottom 10vh;
+      text-align: justify ;
+      margin-left:12vw ;
+      padding: 2vw;
+      border-color: white;
+      border-width: 0.25vw;
+      border-style: solid;
+      font-family: "caveat"; }
+    
+      #iframecontacto { 
+        width: 25vw;
+        height: 32vh;
+        padding-top: 10vh;}
+       
+       h2 {font-size: 5vh;
+           color:rgba(46, 22, 35, 0.65);
+          text-align: center;
+          border-style: double;
+          border-width: 0.5vW;} 
+        
+      #fcontacto {
+        font-size: xx-large;
+        text-align: justify; 
+        padding-top: 2vh;    
+        margin-left: 17vw;
+        margin-right: 17vw;
+        padding-left: 20vw;
+        border-color: rgb(178, 101, 101);
+        border-style: solid;
+        margin-bottom: 1vh;
+         }
+    
+      .botonenviar { font-size: medium;
+         background-color:rgb(178, 101, 101);
+         color: white;
+         font-family: Arial, Helvetica, sans-serif;
+         border-color: white;
+         padding: 2vh;}
+    
+    i{ width: 2vw;
+    height: 2vh}
+
+    @media screen and (max-width: 900px){
+      #seccioncontacto{ display: none;}
+
+      #fcontacto{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 5vh;
+      }
+    }
+    
+    

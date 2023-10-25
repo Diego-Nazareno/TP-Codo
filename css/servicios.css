@@ -1,0 +1,32 @@
+/* Estilos para página  de servicios */
+
+
+.contenedorservicios { 
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+  }
+    
+   #fotoservicios{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  
+   }
+    
+   .contenedoriconos {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin: 2vw;
+    width: 40%;
+    display: grid;
+    grid-template-columns:25% 25% 25% 25% ;
+    grid-column-gap: 10vw;
+    grid-row-gap: 10vh;
+   }
+  #iconosservicios {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  
+  }

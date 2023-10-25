@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/logohhs-NG.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/habitaciones.css">
+    <title>HABITACIONES</title>
+</head>
+<body>
+    <header >
+        <div> 
+            <img class="logo"  src="/img/logohhs1.png" alt="Logo del Hotel Horizonte Sur">
+        </div>   
+        
+         
+         <nav>
+          <a class="menu" href="/index.html">INICIO</a>
+          <a class="menu" href="/templates/habitaciones.html">HABITACIONES</a>
+          <a class="menu" href="/templates/servicios.html">SERVICIOS</a>          
+          <a class="menu" href="/templates/contacto.html">CONTACTO</a>    
+        </nav>
+
+        <div id="icononav">
+        <i class="fa-solid fa-bars" style="color: white;"></i> 
+        </div>
+        
+    </header>
+        
+    
+
+    <main>
+        
+        <div class="tituloimagen">
+                <h1>HABITACIONES</h1>
+        </div>
+
+        <section class="habitaciones">
+            <div class="itemhabitaciones1"><h2 id="titulohabitaciones">HABITACIÓN EJECUTÍVA</h2>
+            
+            </div> 
+
+            <div class="itemhabitaciones2"><h2 id="titulohabitaciones">HABITACIÓN ESTÁNDAR</h2>
+                
+            </div>
+
+            <div class="formularioreserva" >
+
+                <div id="boton">
+                    <button type="button" id="boton_reservar">Reservar</button>
+                </div>
+
+                <form id="reserva" hidden action="https://formspree.io/f/xvojlqjd" method="post">
+                    <div>
+                     <label for="entrada"> Fecha de entrada.(mm/dd/aaaa): </label> 
+                     <input type="date" name="entrada" id="entrada"> 
+                    </div><br> 
+
+                    <div>
+                        <label for="salida"> Fecha de salida.(mm/dd/aaaa): </label> 
+                        <input type="date" name="salida" id="salida"> 
+                    </div><br>
+
+                    <div>
+                        <label for="Adultos"> Adultos: </label>
+                        <input type="number" name="Adultos" id="Adultos" min="1">
+                    </div>
+                
+                    <div>
+                        <label for="Menores"> Menores: </label>
+                        <input type="number" name="Menores" id="Menores" min="0" >
+                    </div>
+
+                    <div>
+                        <label for="Habitaciones"> Habitaciones: </label>
+                        <input type="number" name="Habitaciones" id="Habitaciones" min="1" >
+                    </div>
+
+                    <div>
+                        <label for="firstname">Nombre: </label>
+                        <input size="30" type="text" name="firstname"  required>
+                    </div>
+                    <div>
+                        <label for="lastname">Apellido:</label>
+                        <input size="30" type="text" name="lastname">
+                    </div> 
+
+                    <div>                        
+                        <label for="mail">e-mail: </label>
+                        <input type="email" name="mail"  required>
+                    </div>
+                    <input class="botonenviar" type="submit" value="ENVIAR">
+                </form>
+
+            </div>
+
+            <div class="formularioreserva" >
+                <div id="boton">
+                    <button type="button" id="boton_reservar1">Reservar</button>
+                </div>
+
+                <form id="reserva1" hidden action="https://formspree.io/f/xvojlqjd" method="post">
+                    <div>
+                        <label for="entrada">Fecha de entrada.(mm/dd/aaaa): </label> 
+                        <input type="date" name="entrada"> 
+                    </div><br>
+
+                    <div>
+                        <label for="salida"> Fecha de salida.(mm/dd/aaaa): </label> 
+                        <input type="date" name="salida" id="salida"> 
+                    </div><br> 
+
+                    <div>
+                      <label for="Adultos"> Adultos: </label>  
+                      <input type="number" name="Adultos" id="Adultos" min="1"> 
+
+                    </div>
+
+                    <div>
+                        <label for="Menores"> Menores: </label>
+                        <input type="number" name="Menores" id="Menores" min="0">
+                    </div>
+
+                    <div>
+                        <label for="Habitaciones"> Habitaciones: </label>
+                        <input type="number" name="Habitaciones" id="Habitaciones" min="1" >
+                    </div>
+
+                    <div>
+                        <label for="firstname">Nombre: </label>
+                        <input size="30" type="text" name="firstname"  required>
+                    </div>
+                    <div>
+                        <label for="lastname">Apellido:</label>
+                        <input size="30" type="text" name="lastname">
+                    </div>
+                    
+                    <div>                        
+                         <label for="mail">e-mail: </label>
+                         <input type="email" name="mail"  required>
+                    </div>
+                    <input class="botonenviar" type="submit" value="ENVIAR">
+
+                </form>
+            </div>
+        </section>     
+        
+    </main>
+
+    <footer class="piedepaginas">
+
+
+        <div class="itemfooter">
+            <img class="logof"  src="/img/logohhs1.png" alt="Logo del Hotel Horizonte Sur">
+        </div>
+        
+        <div class="itemfooter">
+            <h5>HOTEL HORIZONTE SUR</h5>
+            <p id="datos1"><i class="fa-solid fa-location-dot"></i>DIRECCIÓN: Calle 17 6942 <br>
+                
+            <i class="fa-solid fa-phone"></i>TELÉFONO:  351-27742233<br>
+            <i class="fa-regular fa-envelope"></i>EMAIL: hotelhorizontesur@gmail.com</p>
+           
+        </div>
+        <div class="itemfooter">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11447.802980684633!2d-64.27316049591259!3d-31.45674495725171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a197b240a18d%3A0xe8533326e5a3d9bf!2sCarrara%20de%20Horizonte%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1697049131117!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="itemfooter">
+            <div class="iconosfooter">
+                <div> 
+                    <img src="/img/instagram.png" alt="logoinstagram">
+                </div>
+                <div>
+                    <img src="/img/facebook.png" alt="logofacebook">
+                </div>
+                <div>
+                    <img src="/img/whatsapp.png" alt="logowhatsapp">
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    
+    
+    <script src="/js/funciones.js"></script>
+    <script src="https://kit.fontawesome.com/fc3860788a.js" crossorigin="anonymous"></script>
+</body>
+</html>
